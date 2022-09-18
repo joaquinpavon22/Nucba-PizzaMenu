@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: #fafafa;
+    /* background-color:rgb(0 0 0 / 97%);
+     */
+     background-image: url(fondo1.jpg);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-cartitas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 50px;
+    color: yellow;
+    
+}
+
+
+.pizzamenu{
+  
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    margin-top: 2px;
+    align-items: center;
+    
+}
+
+
+.pizzamenu>li{
+    font-size: 30px;
+    display: flex;
+    padding: 10px;
+
+    
+}
+
+.select{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seach{
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+    .error 
+{
+    display: none;
+    color: red;
+}
+
+
+img 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.ingredientes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+.comprar{
+    background-color: #fff;
+    border: none;
+    width: 80px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    height:30px ;
+}
+
+
+input{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 5px;
+    width: 300px;
+    border: none;
+    
+}
+input::placeholder{
+    padding: 10px;
+}
+
+#seach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 65px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+#seach{
+    background-color: gray;
+    color: black;
+    transition: all .2s;
+}
+
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    list-style: none;
+    gap: 30px;
+
+    flex-direction: column;
+}
+
